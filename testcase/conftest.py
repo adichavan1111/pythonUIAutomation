@@ -33,7 +33,6 @@ def setup(browser):
     print("Closing browser")
     driver.quit()
 
-
 # conftest.py
 def pytest_html_report_title(report):
     report.title = "Selenium Test Report"
